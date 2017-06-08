@@ -13,10 +13,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class AccountController {
-//
-//    @Autowired
-//    private
-//    AccountService accountService;
+
+    @Autowired
+    private  AccountService accountService;
 
     @RequestMapping(value = "/account/registration", method = RequestMethod.GET)
     public String registerNewUser(Model model) {
@@ -25,13 +24,10 @@ public class AccountController {
         return "registration";
     }
 
-//    @RequestMapping(value = "/add", method = RequestMethod.POST)
-//    public String processAddNewProductForm(@ModelAttribute("newUser") Account accountToBeAdded, BindingResult result) {
-//        String[] suppressedFields = result.getSuppressedFields();
-//        if (suppressedFields.length > 0) {
-//            throw new RuntimeException("Próba wiązania niedozwolonych pól: " + StringUtils.arrayToCommaDelimitedString(suppressedFields));
-//        }
-//        accountService.create(accountToBeAdded);
-//        return "redirect:/";
-//    }
+    @RequestMapping(value = "/account/registration", method = RequestMethod.POST)
+    public String processAddNewProductForm(@ModelAttribute("newUser") Account accountToBeAdded) {
+
+        accountService.create(accountToBeAdded);
+        return "redirect:/";
+    }
 }

@@ -7,7 +7,6 @@ import org.springframework.transaction.annotation.Transactional;
 import ticketsapp.domain.Account;
 import ticketsapp.repository.AccountRepository;
 
-@Transactional
 
 public interface AccountService {
      Long create(Account account);
