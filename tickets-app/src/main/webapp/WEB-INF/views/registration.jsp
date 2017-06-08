@@ -10,8 +10,7 @@
 </head>
 
 <body>
-<form:form modelAttribute="newUser" class="form-horizontal">
-    First name: <br />
+<form:form modelAttribute="newUser" class="form-horizontal"> First name: <br />
     <form:input id="imie" path="firstName" type="text"/><br />
     Last name: <br />
     <form:input id="nazwisko" path="lastName" type="text"/><br />

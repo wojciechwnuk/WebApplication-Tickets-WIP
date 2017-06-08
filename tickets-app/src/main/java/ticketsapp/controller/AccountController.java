@@ -30,4 +30,8 @@ public class AccountController {
         accountService.create(accountToBeAdded);
         return "redirect:/";
     }
+    @RequestMapping (value = "/account/login", method = RequestMethod.GET)
+    public  String loginUser (Model model) {
+        return "login";
+    }
 }
