@@ -11,8 +11,7 @@
     <name>tickets-app Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
-
-        <dependency>
+         <dependency>
             <groupId>org.tickets</groupId>
             <artifactId>tickets-service</artifactId>
             <version>1.0-SNAPSHOT</version>

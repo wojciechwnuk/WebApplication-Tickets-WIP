@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="
+		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <security:http auto-config="true">
+
+        <!--linijka poniżej pokazuje strone, na którą zeby wejść trzeba sie zalogowac jako admin-->
+        <security:intercept-url pattern="/addEvent" access="ROLE_ADMIN"/>
+
+        <!--ta pokazuje strone logowania-->
+        <security:form-login login-page="/account/login"
+                             default-target-url="/"
+                             authentication-failure-url="/account/loginfailed"/>  <!--przekierowanie w przypadku nieudanego logowania-->
+
+        <security:logout logout-success-url="/logout"/>
+    </security:http>
+
+
+    <!-- dane admina-->
+    <security:authentication-manager>
+        <security:authentication-provider>
+            <security:user-service>
+                <security:user name="da" password="da" authorities="ROLE_ADMIN"/>
+            </security:user-service>
+        </security:authentication-provider>
+    </security:authentication-manager>
+</beans>

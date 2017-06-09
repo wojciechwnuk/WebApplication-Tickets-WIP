@@ -1,0 +1,38 @@
+body, html{
+    background-color:#34515E;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 18px;
+
+}
+
+.logbutton{
+    height: 50px;
+    width: 200px;
+    background-color:yellowgreen;
+    border-radius: 0;
+    font-size: 18px;
+    font-family: "Century Gothic", sans-serif;
+    color:white;
+    border: none !important;
+    margin-bottom: 5px;
+}
+.logbutton:hover{
+    color: white;
+    background-color:darkolivegreen;
+}
+.logbutton:active{
+    color: white;
+    background-color:darkolivegreen;
+}
+
+
+.register-form label{
+    color: aliceblue;
+
+}
+.register-form input{
+    margin-bottom: 5px;
+    width: 430px;
+    height: 40px;
+    border-radius: 0;
+}

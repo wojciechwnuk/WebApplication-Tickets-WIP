@@ -14,8 +14,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class AccountController {
 
+    private AccountService accountService;
+
     @Autowired
-    private  AccountService accountService;
+    public void setAccountService(AccountService accountService) {
+        this.accountService = accountService;
+    }
+
+
 
     @RequestMapping(value = "/account/registration", method = RequestMethod.GET)
     public String registerNewUser(Model model) {
@@ -29,5 +35,16 @@ public class AccountController {
 
         accountService.create(accountToBeAdded);
         return "redirect:/";
+    }
+
+    @RequestMapping(value = "/account/login", method = RequestMethod.GET)
+    public String login() {
+        return "login";
+    }
+
+    @RequestMapping(value = "/account/loginfailed", method = RequestMethod.GET)
+    public String loginerror(Model model) {
+        model.addAttribute("error", "true");
+        return "login";
     }
 }

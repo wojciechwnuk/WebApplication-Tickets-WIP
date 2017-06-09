@@ -15,8 +15,9 @@
     <mvc:annotation-driven/>
     <context:component-scan base-package="ticketsapp"/>
     <context:property-placeholder location="classpath:persistance.properties" />
-
     <jpa:repositories base-package="ticketsapp.repository"/>
+
+    <mvc:resources location="/resources/" mapping="/resources/**"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"/>
@@ -45,6 +46,11 @@
         <property name="persistenceProvider">
             <bean class="org.hibernate.jpa.HibernatePersistenceProvider"/>
         </property>
+    </bean>
+
+    <!--odpowiada za mozliwosc dodania obrazka do eventu z panelu admina-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="10240000"/>
     </bean>
 
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
