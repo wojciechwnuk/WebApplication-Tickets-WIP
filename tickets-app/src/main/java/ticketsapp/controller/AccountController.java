@@ -1,8 +1,6 @@
 package ticketsapp.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.util.StringUtils;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import ticketsapp.account.AccountService;
 import ticketsapp.domain.Account;
@@ -15,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class AccountController {
 
     private AccountService accountService;
-
     @Autowired
+
     public void setAccountService(AccountService accountService) {
         this.accountService = accountService;
     }
@@ -31,7 +29,7 @@ public class AccountController {
     }
 
     @RequestMapping(value = "/account/registration", method = RequestMethod.POST)
-    public String processAddNewProductForm(@ModelAttribute("newUser") Account accountToBeAdded) {
+    public String processAddNewAccountForm(@ModelAttribute("newUser") Account accountToBeAdded) {
 
         accountService.create(accountToBeAdded);
         return "redirect:/";

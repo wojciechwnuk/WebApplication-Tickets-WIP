@@ -8,7 +8,7 @@
 
     <title>Tickets-sklep</title>
 </head>
-<body>
+<body background="../../resources/bckgrnd.jpg">
 <section>
     <div class="jumbotron">
         <div class="container">
@@ -16,55 +16,48 @@
             <p> ${tagline} </p>
         </div>
     </div>
+</section>
+
+<section>
     <div class="container">
-        <h2>Choose event</h2>
-        <p>and select checbox: </p>
-        <table class="table table-striped">
-            <thead>
-            <tr>
-                <th>Event</th>
-                <th>Date</th>
-                <th>Price</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>The Example Koncert</td>
-                <td>21.06.2017</td>
-                <td>12.99$</td>
-                <td class="labeled">
-                    <label>
-                        <input type="checkbox"/>
-                    </label>
-                </td>
-            </tr>
-
-            <tr>
-                <td>The Example Koncert 2</td>
-                <td>22.06.2017</td>
-                <td>13.99$</td>
-                <td class="labeled">
-                    <label>
-                        <input type="checkbox"/>
-                    </label>
-                </td>
-            </tr>
-
-            <tr>
-                <td>The Example Koncert 3</td>
-                <td>22.06.2017</td>
-                <td>14.99$</td>
-                <td class="labeled">
-                    <label>
-                        <input type="checkbox"/>
-                    </label>
-                </td>
-            </tr>
-
-            </tbody>
-        </table>
+        <div class="row">
+            <div class="col-sm-6 col-md-3" style="padding-bottom: 15px">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h2>Choose event</h2>
+                        <p>and click "BUY!" </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
+<section class="container">
+    <div class="row">
+        <c:forEach items="${events}" var="event">
+            <div class="col-sm-6 col-md-3" style="padding-bottom: 15px">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h3>${event.name}</h3>
+                        <p>Date: ${event.date}</p>
+                        <p>Price: ${event.price} $</p>
+                        <p>Event ID: ${event.id} </p>
+
+
+                    </div>
+                </div>
+            </div>
+        </c:forEach>
+    </div>
+</section>
+<section class="container">
+    <div class="=row">
+        <input class="btn btn-lg btn-success btn-block" type="submit" value="BUY!">
+    </div>
+
+</section>
+
 
 </body>
 </html>

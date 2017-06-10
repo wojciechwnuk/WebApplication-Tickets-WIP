@@ -5,41 +5,32 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
-    <link href="<c:url value="/resources/css/addEvent.css" />" rel="stylesheet"></head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <title>AddEvent</title>
+</head>
 <body>
-<div class="container-fluid">
-    <form action="" method="" class="register-form">
-        <div class="row">
-            <div class="col-md-4 col-sm-4 col-lg-4">
-                <label >Name of event</label>
-                <label>
-                    <input name="name" class="form-control" type="text">
-                </label>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-4 col-lg-4">
-                <label >Price</label>
-                <label>
-                    <input name="price" class="form-control" type="text">
-                </label>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-4 col-lg-4">
-                <label >Date</label>
-                <label>
-                    <input name="date" class="form-control" type="text">
-                </label>
-            </div>
-        </div>
+
+<div class="container">
+    <div class="col-md-4 col-md-offset-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <form:form modelAttribute="newEvent" class="form-horizontal" >
+                   Name of event: <br/>
+                    <form:input id="nameEvent" path="name" type="text"/><br/>
+                   Date of event: <br/>
+                    <form:input id="dateEvent" path="date" type="date"/><br/>
+                    Price of event: <br/>
+                    <form:input id="priceEvent" path="price" type="number"/><br/>
 
 
-            <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
-                <button class="btn btn-default logbutton">Add event</button>
+                    <input class="btn btn-lg btn-success btn-block" type="submit" value="Submit">
+                </form:form>
             </div>
-    </form>
+
+        </div>
+    </div>
 </div>
+
 </body>
 </html>

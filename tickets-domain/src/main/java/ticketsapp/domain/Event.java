@@ -13,14 +13,24 @@ public class Event {
     @Column(name = "account_id")
     private Long id;
     @Column(name = "date")
-    private Date date;
+    private String date;
     @Column(name = "name")
     private String name;
+    @Column(name = "price")
+    private Long price;
 
    // private MultipartFile eventImage;
 
 
     public Event() {
+    }
+
+    public Long getPrice() {
+        return price;
+    }
+
+    public void setPrice(Long price) {
+        this.price = price;
     }
 
     public Long getId() {
@@ -31,11 +41,11 @@ public class Event {
         this.id = id;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 

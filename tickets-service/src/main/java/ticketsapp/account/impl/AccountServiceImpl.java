@@ -10,7 +10,6 @@ import ticketsapp.repository.AccountRepository;
 
 @Service
 @Transactional
-
 public class AccountServiceImpl implements AccountService {
 
     private final AccountRepository accountRepository;
@@ -22,7 +21,6 @@ public class AccountServiceImpl implements AccountService {
 
     public Long create(Account account) {
         accountRepository.save(account);
-
         return account.getId();
     }
 }

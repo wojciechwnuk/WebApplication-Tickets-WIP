@@ -9,8 +9,6 @@
     <title>Registration</title>
 </head>
 
-
-
 <body>
 <div class="container">
     <div class="col-md-4 col-md-offset-4">
@@ -28,9 +26,10 @@
                     Password: <br/>
                     <form:input id="hasło" path="password" type="password"/><br/>
 
+                    <input class="btn btn-lg btn-success btn-block" type="submit" value="Submit">
                 </form:form>
             </div>
-            <input class="btn btn-lg btn-success btn-block" type="submit" value="Submit">
+
         </div>
     </div>
 </div>
