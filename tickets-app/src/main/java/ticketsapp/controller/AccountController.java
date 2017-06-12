@@ -13,13 +13,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class AccountController {
 
     private AccountService accountService;
+
     @Autowired
 
     public void setAccountService(AccountService accountService) {
         this.accountService = accountService;
     }
-
-
 
     @RequestMapping(value = "/account/registration", method = RequestMethod.GET)
     public String registerNewUser(Model model) {

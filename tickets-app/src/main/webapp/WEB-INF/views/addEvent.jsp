@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     <title>AddEvent</title>
 </head>
-<body>
+<body background="../../resources/backgroundcreme.jpg">
 
 <div class="container">
     <div class="col-md-4 col-md-offset-4">
@@ -22,6 +22,8 @@
                     <form:input id="dateEvent" path="date" type="date"/><br/>
                     Price of event: <br/>
                     <form:input id="priceEvent" path="price" type="number"/><br/>
+                    Available tickets:
+                    <form:input id="tickets" path="availableTickets" type="number"/><br/>
 
                     <div class="form-group">
                         <label class="control-label col-lg-2" for="eventImage">

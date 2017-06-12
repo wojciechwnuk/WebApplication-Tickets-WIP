@@ -25,25 +25,21 @@ public class EventController {
     public String addEvent(Model model) {
         Event event = new Event();
         model.addAttribute("newEvent", event);
-
         return "addEvent";
     }
 
-    @RequestMapping(value = "/addEvent", method = RequestMethod.POST )
+    @RequestMapping(value = "/addEvent", method = RequestMethod.POST)
     public String processAddEvent(@ModelAttribute("newEvent") Event eventToBeAdded) {
 
         eventService.create(eventToBeAdded);
-
         return "redirect:/";
     }
 
-
-    @RequestMapping(value="/event")
-    public String getEventById(@RequestParam("id") Long id, Model model){
+    @RequestMapping(value = "/event")
+    public String getEventById(@RequestParam("id") Long id, Model model) {
         model.addAttribute("event", eventService.getEventById(id));
         return "event";
     }
-
 
     @RequestMapping("/")
     public String allEvents(Model model) {

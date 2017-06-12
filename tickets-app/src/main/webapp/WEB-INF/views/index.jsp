@@ -45,10 +45,11 @@
                         <p>Date: ${event.date}</p>
                         <p>Price: ${event.price} $</p>
                         <p>Event ID: ${event.id} </p>
+                        <p>Available tickets: ${event.availableTickets} </p>
 
                         <p>
                             <a href=" <spring:url value="/event?id=${event.id}" />" class="btn btn-primary">
-                                <span class="glyphicon-info-sign glyphicon"/></span>Details
+                                <span class="glyphicon-info-sign glyphicon"/>Details
                             </a>
                         </p>
                     </div>

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     <title>Event</title>
 </head>
-<body>
+<body background="../../resources/backgroundcreme.jpg">
 <section>
     <div class="jumbotron">
         <div class="container">
@@ -18,6 +18,7 @@
 <section class="container">
     <div class="row">
         <div class="col-md-5">
+            <img src="<c:url value="/resources/images/${event.id}.png"></c:url>" alt="image" style="width:100%"/>
         </div>
         <div class="col-md-5">
             <h3>${event.name}</h3>
@@ -36,9 +37,9 @@
                 <a href="<spring:url value="/"/>" class="btn btndefault">
                     <span class="glyphicon-hand-left glyphicon"></span> Back
                 </a>
-                <a href="#" class="btn btn-warning btn-large">
+                <a href=" <spring:url value="/order/event?id=${event.id}" />" class="btn btn-warning btn-large">
                     <span class="glyphicon-shopping-cart glyphicon"></span>
-                    Buy now!
+                    Order now!
                 </a>
             </p>
         </div>

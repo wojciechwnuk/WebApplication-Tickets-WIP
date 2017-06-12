@@ -9,7 +9,8 @@
     <title>Produkty</title>
 </head>
 
-<body>
+<body background="../../resources/popcornBackground.jpg">
+
 
 <c:url var="securityCheck" value="/j_spring_security_check"/>
 <c:url var="directToRegistration" value="/account/registration"/>

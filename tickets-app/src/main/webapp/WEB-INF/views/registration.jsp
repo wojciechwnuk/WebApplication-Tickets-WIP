@@ -9,7 +9,7 @@
     <title>Registration</title>
 </head>
 
-<body>
+<body background="../../resources/popcornBackground.jpg">
 <div class="container">
     <div class="col-md-4 col-md-offset-4">
         <div class="panel panel-default">
@@ -25,7 +25,7 @@
                     <form:input id="email" path="email" type="text"/><br/>
                     Password: <br/>
                     <form:input id="hasło" path="password" type="password"/><br/>
-
+                    <br/>
                     <input class="btn btn-lg btn-success btn-block" type="submit" value="Submit">
                 </form:form>
             </div>

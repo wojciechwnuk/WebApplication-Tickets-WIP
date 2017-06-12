@@ -1,9 +1,9 @@
 package ticketsapp.domain;
 
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import javax.persistence.*;
-import java.util.Date;
+
+
 @Entity
 @Table(name = "EVENTS")
 public class Event {
@@ -21,12 +21,10 @@ public class Event {
     @Column(name = "availableTickets")
     private Long availableTickets;
 
-
     public MultipartFile getEventImage() {
         MultipartFile eventImage = null;
         return eventImage;
     }
-
 
     public Event() {
     }
