@@ -6,8 +6,12 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
 import ticketsapp.account.EventService;
 import ticketsapp.domain.Event;
+import javax.servlet.http.HttpServletRequest;
+import java.io.File;
 
 @Controller
 public class EventController {
@@ -27,12 +31,22 @@ public class EventController {
         return "addEvent";
     }
 
-    @RequestMapping(value = "/addEvent", method = RequestMethod.POST)
-    public String processAddEvent(@ModelAttribute("newEvent") Event eventToBeAdded) {
+    @RequestMapping(value = "/addEvent", method = RequestMethod.POST )
+    public String processAddEvent(@ModelAttribute("newEvent") Event eventToBeAdded, HttpServletRequest request) {
+
 
         eventService.create(eventToBeAdded);
+
         return "redirect:/";
     }
+
+
+    @RequestMapping(value="/event")
+    public String getEventById(@RequestParam("id") Long id, Model model){
+        model.addAttribute("event", eventService.getEventById(id));
+        return "event";
+    }
+
 
     @RequestMapping("/")
     public String allEvents(Model model) {

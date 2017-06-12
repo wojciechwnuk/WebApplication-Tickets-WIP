@@ -12,10 +12,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="tickets" target="1.5" />
-      <module name="tickets-app" target="1.5" />
-      <module name="tickets-domain" target="1.5" />
-      <module name="tickets-service" target="1.5" />
+      <module name="tickets" target="1.8" />
+      <module name="tickets-app" target="1.8" />
+      <module name="tickets-domain" target="1.8" />
+      <module name="tickets-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

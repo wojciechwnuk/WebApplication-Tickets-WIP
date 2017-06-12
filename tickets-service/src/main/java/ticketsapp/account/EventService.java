@@ -8,4 +8,5 @@ import java.util.List;
 public interface EventService {
     Long create(Event event);
     List<Event> findAllEvents();
+    Event getEventById(Long id);
 }

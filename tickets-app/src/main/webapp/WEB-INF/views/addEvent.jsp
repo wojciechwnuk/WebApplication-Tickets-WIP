@@ -15,7 +15,7 @@
     <div class="col-md-4 col-md-offset-4">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <form:form modelAttribute="newEvent" class="form-horizontal" >
+                <form:form modelAttribute="newEvent" class="form-horizontal" enctype="multipart/form-data">
                    Name of event: <br/>
                     <form:input id="nameEvent" path="name" type="text"/><br/>
                    Date of event: <br/>
@@ -23,6 +23,14 @@
                     Price of event: <br/>
                     <form:input id="priceEvent" path="price" type="number"/><br/>
 
+                    <div class="form-group">
+                        <label class="control-label col-lg-2" for="eventImage">
+                           Dodaj obrazek
+                        </label>
+                        <div class="col-lg-10">
+                            <form:input id="eventImage" path="eventImage" type="file" class="form:input-large" />
+                        </div>
+                    </div>
 
                     <input class="btn btn-lg btn-success btn-block" type="submit" value="Submit">
                 </form:form>

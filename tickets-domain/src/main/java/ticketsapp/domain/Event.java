@@ -18,11 +18,28 @@ public class Event {
     private String name;
     @Column(name = "price")
     private Long price;
+    @Column(name = "availableTickets")
+    private Long availableTickets;
 
-   // private MultipartFile eventImage;
+
+
+
+
+    public MultipartFile getEventImage() {
+        MultipartFile eventImage = null;
+        return eventImage;
+    }
 
 
     public Event() {
+    }
+
+    public Event(Long id, String date, String name, Long price, Long availableTickets) {
+        this.id = id;
+        this.date = date;
+        this.name = name;
+        this.price = price;
+        this.availableTickets=availableTickets;
     }
 
     public Long getPrice() {
@@ -55,5 +72,13 @@ public class Event {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Long getAvailableTickets() {
+        return availableTickets;
+    }
+
+    public void setAvailableTickets(Long availableTickets) {
+        this.availableTickets = availableTickets;
     }
 }
