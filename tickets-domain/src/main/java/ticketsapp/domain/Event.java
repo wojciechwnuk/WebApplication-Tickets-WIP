@@ -22,9 +22,6 @@ public class Event {
     private Long availableTickets;
 
 
-
-
-
     public MultipartFile getEventImage() {
         MultipartFile eventImage = null;
         return eventImage;

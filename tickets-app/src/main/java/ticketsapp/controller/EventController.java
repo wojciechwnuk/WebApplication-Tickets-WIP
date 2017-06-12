@@ -7,11 +7,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.multipart.MultipartFile;
 import ticketsapp.account.EventService;
 import ticketsapp.domain.Event;
-import javax.servlet.http.HttpServletRequest;
-import java.io.File;
+
 
 @Controller
 public class EventController {
@@ -32,8 +30,7 @@ public class EventController {
     }
 
     @RequestMapping(value = "/addEvent", method = RequestMethod.POST )
-    public String processAddEvent(@ModelAttribute("newEvent") Event eventToBeAdded, HttpServletRequest request) {
-
+    public String processAddEvent(@ModelAttribute("newEvent") Event eventToBeAdded) {
 
         eventService.create(eventToBeAdded);
 

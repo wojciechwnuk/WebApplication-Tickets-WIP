@@ -6,8 +6,8 @@ import org.springframework.transaction.annotation.Transactional;
 import ticketsapp.account.EventService;
 import ticketsapp.domain.Event;
 import ticketsapp.repository.EventRepository;
+import ticketsapp.repository.dao.EventHbntDAO;
 import ticketsapp.repository.dao.TempDatabase;
-
 import java.util.List;
 
 @Service
@@ -16,13 +16,15 @@ public class EventServiceImpl implements EventService {
     public EventServiceImpl() {
     }
 
-    private  EventRepository eventRepository;
+    private EventRepository eventRepository;
     private TempDatabase tempDatabase;
+    private EventHbntDAO eventHbntDAO;
 
     @Autowired
-    public EventServiceImpl(EventRepository eventRepository, TempDatabase tempDatabase) {
+    public EventServiceImpl(EventRepository eventRepository, TempDatabase tempDatabase, EventHbntDAO eventHbntDAO) {
         this.eventRepository = eventRepository;
         this.tempDatabase = tempDatabase;
+        this.eventHbntDAO = eventHbntDAO;
     }
 
     public Long create(Event event) {
@@ -37,7 +39,7 @@ public class EventServiceImpl implements EventService {
     }
 
     public Event getEventById(Long id) {
-        return tempDatabase.getEventById(id);
+        return eventHbntDAO.getEventById(id);
     }
 
 }
