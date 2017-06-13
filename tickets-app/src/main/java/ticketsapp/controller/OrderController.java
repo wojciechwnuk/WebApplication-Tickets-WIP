@@ -30,10 +30,10 @@ public class OrderController {
         return "order";
     }
 
-//    @RequestMapping(value = "/order/event", method = RequestMethod.POST)
-//    public String executeOrder(@RequestParam("id") Long id, @ModelAttribute ("count")Long count) {
-//        eventService.updateTickets(id, count);
-//        return "index";
-//    }
+    @RequestMapping(value = "/order/event", method = RequestMethod.POST)
+    public String executeOrder(@RequestParam("id") Long id, @ModelAttribute ("newOrder") Order newOrder) {
+        eventService.updateTickets(id, newOrder.getNumberOfTickets());
+        return "login";
+    }
 
 }

@@ -55,6 +55,7 @@ public class EventServiceImpl implements EventService {
             throw new IllegalArgumentException("Not enough tickets: " + event.getAvailableTickets());
         }
         event.setAvailableTickets(event.getAvailableTickets() - count);
+       eventRepository.save(event);
 
     }
 

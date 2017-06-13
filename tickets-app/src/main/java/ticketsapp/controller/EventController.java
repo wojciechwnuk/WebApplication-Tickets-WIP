@@ -44,7 +44,7 @@ public class EventController {
     @RequestMapping("/")
     public String allEvents(Model model) {
 
-        eventService.createDefaultEvents();
+        //eventService.createDefaultEvents();
 
         model.addAttribute("greeting", "Welcome to our TICKETS-SKLEP!");
         model.addAttribute("tagline", "Best TICKETS-SKLEP in web!");

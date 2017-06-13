@@ -17,19 +17,17 @@
                 <h3>Event: ${actualEvent.name}</h3>
                 <h3>Price: ${actualEvent.price}</h3>
                 <h3>Available tickets: ${actualEvent.availableTickets}</h3>
-
             </div>
             <div class="thumbnail">
                 <form:form modelAttribute="newOrder" class="form-horizontal">
                     How many tickets would you buy?
                     <form:input id="nrOftickets" path="numberOfTickets" type="number"/><br/>
                     <br/>
+                    <input class="btn btn-lg btn-success btn-block" type="submit" value="Go to payment">
 
                 </form:form>
             </div>
-            <div class="col-sm-6 col-md-3" style="padding-bottom: 15px">
-                <a href=" <spring:url value="/" />" class="btn btn-default submit">Go to payment</a>
-            </div>
+
 
         </div>
     </div>
