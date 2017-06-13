@@ -27,6 +27,18 @@ public class EventServiceImpl implements EventService {
         return event.getId();
     }
 
+    public void createDefaultEvents() {
+
+            Event defaultEvent1 = new Event(1L, "27.07.2017", "Super Concert of Famous Artist!", 19L, 1000L);
+            Event defaultEvent2 = new Event(2L, "27.07.2017", "Concert of Non-Famous Artist!", 12L, 500L);
+            Event defaultEvent3 = new Event(3L, "27.07.2017", "Festival of Colours", 2L, 300L);
+
+            eventRepository.save(defaultEvent1);
+            eventRepository.save(defaultEvent2);
+            eventRepository.save(defaultEvent3);
+
+    }
+
     public List<Event> findAllEvents() {
         List<Event> listOfEvents = eventRepository.findAll();
         return listOfEvents;
@@ -34,6 +46,16 @@ public class EventServiceImpl implements EventService {
 
     public Event getEventById(Long id) {
         return eventRepository.findOne(id);
+    }
+
+    public void updateTickets(Long id, Long count) {
+        Event event = eventRepository.findOne(id);
+
+        if (event.getAvailableTickets() < count) {
+            throw new IllegalArgumentException("Not enough tickets: " + event.getAvailableTickets());
+        }
+        event.setAvailableTickets(event.getAvailableTickets() - count);
+
     }
 
 }

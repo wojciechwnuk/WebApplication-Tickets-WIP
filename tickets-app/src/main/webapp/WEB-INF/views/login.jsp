@@ -5,11 +5,11 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<c:url value="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>">
     <title>Produkty</title>
 </head>
 
-<body background="../../resources/popcornBackground.jpg">
+<body background="../../resources/backgrounds/backgroundcreme.jpg">
 
 
 <c:url var="securityCheck" value="/j_spring_security_check"/>

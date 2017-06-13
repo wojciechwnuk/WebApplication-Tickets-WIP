@@ -1,0 +1,50 @@
+
+.logbutton{
+    height: 50px;
+    width: 200px;
+    background-color:yellowgreen;
+    border-radius: 0px;
+    font-size: 18px;
+    color:white;
+    border: none !important;
+    margin-bottom: 5px;
+
+    position:absolute;
+    transition: .5s ease;
+    top: 20%;
+    left: 50%;
+}
+
+.logbutton:hover{
+    color: white;
+    background-color:darkolivegreen;
+}
+.logbutton:active{
+    color: white;
+    background-color:darkolivegreen;
+}
+
+.regbutton{
+    height: 50px;
+    width: 200px;
+    background-color:tomato;
+    border-radius: 0px;
+    font-size: 18px;
+    color:white;
+    border: none !important;
+    margin-bottom: 5px;
+
+    position:absolute;
+    transition: .5s ease;
+    top: 20%;
+    left: 50%;
+}
+.regbutton:hover{
+    color: white;
+    background-color:#aa422f;
+}
+.regbutton:active{
+    color: white;
+    background-color:#aa422f;
+}
+

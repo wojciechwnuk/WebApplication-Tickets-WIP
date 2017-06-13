@@ -6,10 +6,10 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<c:url value="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>">
     <title>AddEvent</title>
 </head>
-<body background="../../resources/backgroundcreme.jpg">
+<body background="../../resources/backgrounds/backgroundcreme.jpg">
 
 <div class="container">
     <div class="col-md-4 col-md-offset-4">

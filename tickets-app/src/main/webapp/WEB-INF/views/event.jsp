@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     <title>Event</title>
 </head>
-<body background="../../resources/backgroundcreme.jpg">
+<body background="../../resources/backgrounds/backgroundcreme.jpg">
 <section>
     <div class="jumbotron">
         <div class="container">
@@ -32,7 +32,7 @@
                 <strong>Available tickets: </strong>: ${event.availableTickets}
             </p>
 
-            <h4>Price: ${event.price}PLN</h4>
+            <h4>Price: ${event.price}$</h4>
             <p>
                 <a href="<spring:url value="/"/>" class="btn btndefault">
                     <span class="glyphicon-hand-left glyphicon"></span> Back

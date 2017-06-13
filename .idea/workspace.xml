@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbb6d911-13a0-4b17-bc05-0a283f5f2ada" name="Default" comment="orders v0.4">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/resources/backgroundcreme.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/resources/popcornBackground.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/OrderController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/order.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/OrderService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/OrderServiceImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Ticket.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/TicketRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/dao/EventHbntDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/dao/TempDatabase.java" afterPath="" />
+    <list default="true" id="cbb6d911-13a0-4b17-bc05-0a283f5f2ada" name="Default" comment="orders almost done">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/resources/backgrounds/orderBackgorund.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/resources/css/regLogButtons.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tickets-app/src/main/webapp/resources/background.jpg" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/resources/backgrounds/background.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tickets-app/src/main/webapp/resources/backgroundcreme.jpg" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/resources/backgrounds/backgroundcreme.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tickets-app/src/main/webapp/resources/popcornBackground.jpg" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/resources/backgrounds/popcornBackground.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/AccountController.java" afterPath="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/AccountController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/EventController.java" afterPath="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/EventController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/spring/webcontext/DispatcherServlet-context.xml" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/spring/webcontext/DispatcherServlet-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/OrderController.java" afterPath="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/OrderController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/addEvent.jsp" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/addEvent.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/event.jsp" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/event.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/login.jsp" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/order.jsp" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/order.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/registration.jsp" afterPath="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/registration.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Event.java" afterPath="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Event.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Order.java" afterPath="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/EventRepository.java" afterPath="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/EventRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-domain/tickets-domain.iml" afterPath="$PROJECT_DIR$/tickets-domain/tickets-domain.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/EventService.java" afterPath="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/EventService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/EventServiceImpl.java" afterPath="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/EventServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/OrderServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets-service/tickets-service.iml" afterPath="$PROJECT_DIR$/tickets-service/tickets-service.iml" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,11 +45,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="36" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="order.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/order.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="-35">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/registration.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/OrderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addEvent.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/addEvent.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-324">
+              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -59,26 +111,29 @@
       <file leaf-file-name="EventController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/EventController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#663#664#0" expanded="false" />
-                <element signature="e#711#712#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="612">
+              <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/OrderController.java">
+      <file leaf-file-name="EventRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/EventRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="e#505#506#0" expanded="false" />
-                <element signature="e#553#554#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/EventServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,30 +141,11 @@
       <file leaf-file-name="event.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/event.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="51" column="77" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/OrderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="-1">
+              <caret line="20" column="70" lean-forward="false" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1497355431180" expanded="true" signature="1706:1731" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,6 +158,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -157,7 +194,6 @@
         <option value="$PROJECT_DIR$/tickets-service/pom.xml" />
         <option value="$PROJECT_DIR$/tickets-service/src/main/resources/library-service.xml" />
         <option value="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/EventService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/dao/TempDatabase.java" />
         <option value="$PROJECT_DIR$/tickets-app/pom.xml" />
@@ -166,20 +202,23 @@
         <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/spring/webcontext/DispatcherServlet-context.xml" />
         <option value="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/AccountController.java" />
         <option value="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/dao/EventHbntDAO.java" />
-        <option value="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/EventController.java" />
-        <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/login.jsp" />
-        <option value="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/EventServiceImpl.java" />
-        <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/addEvent.jsp" />
-        <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/registration.jsp" />
-        <option value="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Event.java" />
-        <option value="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Order.java" />
         <option value="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/OrderRepository.java" />
         <option value="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/OrderService.java" />
-        <option value="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/order.jsp" />
-        <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/event.jsp" />
+        <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/resources/css/regLogButtons.css" />
+        <option value="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Event.java" />
         <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Order.java" />
+        <option value="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/EventController.java" />
+        <option value="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/EventService.java" />
+        <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/order.jsp" />
+        <option value="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/EventServiceImpl.java" />
+        <option value="$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/EventRepository.java" />
+        <option value="$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/event.jsp" />
+        <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/registration.jsp" />
+        <option value="$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/addEvent.jsp" />
+        <option value="$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/login.jsp" />
       </list>
     </option>
   </component>
@@ -197,11 +236,6 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -214,18 +248,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -244,12 +268,6 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tickets2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tickets2" />
@@ -293,10 +311,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -550,15 +564,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webcontext" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -589,6 +595,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tickets2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tickets2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tickets-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backgrounds" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -637,21 +681,157 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\S41\Desktop\tickets2\tickets-app\src\main\webapp\resources\backgrounds" />
+      <recent name="C:\Users\S41\Desktop\tickets2\tickets-app\src\main\webapp\resources\images" />
+      <recent name="C:\Users\S41\Desktop\tickets2\tickets-app\src\main\webapp\resources" />
+      <recent name="C:\Users\RENT\Desktop\tickets2\tickets-app\src\main\webapp\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ticketsapp.repository.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\RENT\Desktop\tickets2\tickets-app\src\main\webapp\resources" />
       <recent name="C:\Users\S41\Desktop\tickets2\tickets-app\src\main\webapp\resources\images" />
       <recent name="C:\Users\S41\Desktop\tickets2\tickets-app\src\main\webapp\WEB-INF\views" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ticketsapp.repository.dao" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\RENT\Desktop\tickets2\tickets-app\src\main\webapp\resources" />
-      <recent name="C:\Users\S41\Desktop\tickets2\tickets-app\src\main\webapp\resources\images" />
-      <recent name="C:\Users\S41\Desktop\tickets2\tickets-app\src\main\webapp\resources" />
-    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/AccountController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/EventController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/spring/webcontext/DispatcherServlet-context.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/addEvent.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/event.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/index.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/login.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/registration.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-domain/pom.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Event.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-domain/tickets-domain.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/EventServiceImpl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-service/tickets-service.iml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/OrderController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/order.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-app/src/main/webapp/resources/backgroundcreme.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-app/src/main/webapp/resources/popcornBackground.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Order.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/OrderService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/OrderServiceImpl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-service/src/main/resources/tickets-service.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Ticket.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/TicketRepository.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/dao/TempDatabase.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -704,7 +884,7 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -714,7 +894,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -722,7 +902,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -747,7 +931,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
     </configuration>
@@ -925,6 +1113,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
@@ -941,27 +1130,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -989,6 +1157,19 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -1084,34 +1265,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1122,7 +1275,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -1219,7 +1372,7 @@
         <item index="0" class="java.lang.String" itemvalue="Application.EventServiceImpl" />
       </list>
     </recent_temporary>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -1229,7 +1382,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -1237,11 +1390,7 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -1280,44 +1429,70 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30605000" />
+    <option name="totallyTimeSpent" value="43718000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4293362" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17994858" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5345502" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2750317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20244215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14247312" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34261242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4293362" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20682302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17994858" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14247312" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5345502" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2750317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20244215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1332,6 +1507,14 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
               </option>
             </State>
           </value>
@@ -1353,7 +1536,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hibernate bug" />
     <MESSAGE value="orders v0.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="orders v0.4" />
+    <MESSAGE value="orders almost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="orders almost done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1366,30 +1550,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/EventController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="41" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#663#664#0" expanded="false" />
-            <element signature="e#711#712#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tickets-domain/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1397,19 +1561,15 @@
     <entry file="file://$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/EventController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#663#664#0" expanded="false" />
-            <element signature="e#711#712#0" expanded="false" />
-          </folding>
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/AccountController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1417,7 +1577,7 @@
     <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/registration.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="98" selection-start-line="6" selection-start-column="3" selection-end-line="7" selection-end-column="98" />
+          <caret line="7" column="98" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="7" selection-end-column="98" />
           <folding />
         </state>
       </provider>
@@ -1425,7 +1585,7 @@
     <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/addEvent.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1433,17 +1593,15 @@
     <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1452,7 +1610,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1460,19 +1618,15 @@
     <entry file="file://$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/EventController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#663#664#0" expanded="false" />
-            <element signature="e#711#712#0" expanded="false" />
-          </folding>
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/AccountController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1480,24 +1634,17 @@
     <entry file="file://$PROJECT_DIR$/tickets-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="17" />
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/HomeController.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.3.RELEASE/spring-data-jpa-1.11.3.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/TicketRepository.java" />
     <entry file="file://$PROJECT_DIR$/tickets-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1507,29 +1654,22 @@
     <entry file="file://$PROJECT_DIR$/tickets-service/src/main/resources/persistance.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tickets-app/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        <state relative-caret-position="697">
+          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="78" column="48" selection-start-line="78" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state relative-caret-position="1819">
+          <caret line="107" column="6" lean-forward="false" selection-start-line="107" selection-start-column="6" selection-end-line="108" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -1537,7 +1677,7 @@
     <entry file="file://$PROJECT_DIR$/tickets-domain/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1546,7 +1686,58 @@
     <entry file="file://$PROJECT_DIR$/tickets-service/src/main/resources/tickets-service.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/dao/EventHbntDAO.java" />
+    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/spring/webcontext/DispatcherServlet-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Ticket.java" />
+    <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/OrderRepository.java" />
+    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/spring/webcontext/security-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="81" lean-forward="false" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/resources/css/regLogButtons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="168" column="17" lean-forward="false" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.3.RELEASE/spring-data-jpa-1.11.3.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -1554,7 +1745,7 @@
     <entry file="file://$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/AccountController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1562,97 +1753,23 @@
     <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/AccountRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="24" />
+          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/dao/EventHbntDAO.java" />
-    <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/EventServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#647#648#0" expanded="false" />
-            <element signature="e#940#941#0" expanded="false" />
-            <element signature="e#990#991#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/spring/webcontext/DispatcherServlet-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Ticket.java" />
-    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/addEvent.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/OrderRepository.java" />
-    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/spring/webcontext/security-context.xml">
+    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="81" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/AccountService.java">
+    <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/AccountServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/EventService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/EventRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+        <state relative-caret-position="221">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1660,86 +1777,139 @@
     <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/domain/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="false" />
+            <element signature="e#241#242#0" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#386#387#0" expanded="false" />
+            <element signature="e#415#416#0" expanded="false" />
+            <element signature="e#457#458#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#526#527#0" expanded="false" />
+            <element signature="e#556#557#0" expanded="false" />
+            <element signature="e#600#601#0" expanded="false" />
+            <element signature="e#638#639#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/login.jsp">
+    <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/EventService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets-domain/src/main/java/ticketsapp/repository/EventRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/EventController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#663#664#0" expanded="false" />
-            <element signature="e#711#712#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="612">
+          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/EventServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tickets-app/src/main/java/ticketsapp/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="e#505#506#0" expanded="false" />
-            <element signature="e#553#554#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/order.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="374">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="36" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/event.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="-1">
+          <caret line="20" column="70" lean-forward="false" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1497355431180" expanded="true" signature="1706:1731" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/index.jsp">
+    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/registration.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="51" column="77" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
+        <state relative-caret-position="119">
+          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tickets-service/src/main/java/ticketsapp/account/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/addEvent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets-app/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>

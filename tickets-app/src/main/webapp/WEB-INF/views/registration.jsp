@@ -1,15 +1,16 @@
 <%@page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<c:url value="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>">
     <title>Registration</title>
 </head>
 
-<body background="../../resources/popcornBackground.jpg">
+<body background="../../resources/backgrounds/backgroundcreme.jpg">
 <div class="container">
     <div class="col-md-4 col-md-offset-4">
         <div class="panel panel-default">

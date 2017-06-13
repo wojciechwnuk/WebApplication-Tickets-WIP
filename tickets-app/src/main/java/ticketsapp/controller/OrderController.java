@@ -3,9 +3,12 @@ package ticketsapp.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import ticketsapp.account.EventService;
+import ticketsapp.domain.Order;
 
 @Controller
 public class OrderController {
@@ -20,8 +23,17 @@ public class OrderController {
 
     @RequestMapping("/order/event")
     public String getProductById(@RequestParam("id") Long eventId, Model model) {
-      model.addAttribute("order", eventService.getEventById(eventId));
+        model.addAttribute("actualEvent", eventService.getEventById(eventId));
+
+        Order order = new Order();
+        model.addAttribute("newOrder", order);
         return "order";
     }
+
+//    @RequestMapping(value = "/order/event", method = RequestMethod.POST)
+//    public String executeOrder(@RequestParam("id") Long id, @ModelAttribute ("count")Long count) {
+//        eventService.updateTickets(id, count);
+//        return "index";
+//    }
 
 }
