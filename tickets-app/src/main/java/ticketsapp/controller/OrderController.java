@@ -1,3 +1,4 @@
+
 package ticketsapp.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,7 +35,7 @@ public class OrderController {
     @RequestMapping(value = "/order/event", method = RequestMethod.POST)
     public String executeOrder(@RequestParam("id") Long id, @ModelAttribute ("newOrder") Order newOrder) {
         eventService.updateTickets(id, newOrder.getNumberOfTickets());
-        orderService.sendEmail(newOrder.getDeliveryEmail());
+        orderService.sendEmail(newOrder.getDeliveryEmail(), newOrder.getNumberOfTickets());
         return "index";
     }
 

@@ -1,13 +1,20 @@
 package ticketsapp.domain;
 
+import javax.persistence.*;
 
+@Entity
+@Table(name = "orders")
 public class Order {
-
-    private Long eventId;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "order_id")
+    private Long orderId;
+    @Column(name = "numberOfTickets")
     private Long numberOfTickets;
+    @Column(name = "amount")
     private Long amount;
+    @Column(name = "deliveryEmail")
     private String deliveryEmail;
-
 
     public Order() {
     }
@@ -28,12 +35,12 @@ public class Order {
         this.amount = amount;
     }
 
-    public Long getEventId() {
-        return eventId;
+    public Long getOrderId() {
+        return orderId;
     }
 
-    public void setEventId(Long eventId) {
-        this.eventId = eventId;
+    public void setOrderId(Long orderId) {
+        this.orderId = orderId;
     }
 
     public String getDeliveryEmail() {

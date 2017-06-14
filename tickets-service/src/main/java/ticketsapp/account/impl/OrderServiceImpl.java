@@ -1,10 +1,10 @@
+
+
 package ticketsapp.account.impl;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import ticketsapp.account.OrderService;
-import ticketsapp.domain.Event;
-import ticketsapp.repository.EventRepository;
 
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -16,21 +16,11 @@ import java.util.Properties;
 import java.util.Random;
 
 @Service
+@Transactional
 public class OrderServiceImpl implements OrderService {
 
-    @Autowired
-    public OrderServiceImpl(EventRepository eventRepository) {
-        this.eventRepository = eventRepository;
-    }
 
-    private EventRepository eventRepository;
-
-    @Override
-    public Event getIdOfEvent(Long id) {
-        return eventRepository.getOne(id);
-    }
-
-    public void sendEmail(String recipientEmail) {
+    public void sendEmail(String recipientEmail, Long numberOfTickets) {
         Properties mailServerProperties;
         Session getMailSession;
         MimeMessage generateMailMessage;
@@ -47,7 +37,7 @@ public class OrderServiceImpl implements OrderService {
             generateMailMessage.addRecipient(Message.RecipientType.TO, new InternetAddress(recipientEmail));
 
             generateMailMessage.setSubject("Uwaga!");
-            String emailBody = "Your ticket is ready. Its number is: "+ orderNrGenerator()+ "! Print it or put to your mobile device and show at the entrace.";
+            String emailBody = "Your ticket is ready("+enterNrOfTickets(numberOfTickets)+" piece(/s)). Its number is: " + orderNrGenerator() + "! Print it or put to your mobile device and show at the entrace.";
             generateMailMessage.setContent(emailBody, "text/html");
             System.out.println("Session configuration - ok!");
 
@@ -61,10 +51,13 @@ public class OrderServiceImpl implements OrderService {
         System.out.println("Email send correctly.");
     }
 
+    public Long enterNrOfTickets(Long numberOfTickets) {
+        return numberOfTickets;
+    }
+
     Integer orderNrGenerator() {
         Random random = new Random();
         Integer numberOfOrder = random.nextInt(1000) + 100000;
         return numberOfOrder;
     }
 }
-
