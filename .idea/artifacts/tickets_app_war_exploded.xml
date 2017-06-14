@@ -10,6 +10,8 @@
           <element id="archive" name="tickets-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="tickets-service" />
           </element>
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.7" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.1.4.RELEASE" />

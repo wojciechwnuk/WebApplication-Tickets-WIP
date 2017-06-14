@@ -8,18 +8,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import ticketsapp.account.EventService;
+import ticketsapp.account.OrderService;
 import ticketsapp.domain.Order;
 
 @Controller
 public class OrderController {
 
     private EventService eventService;
+    private OrderService orderService;
 
-    @Autowired
-    public void setEventService(EventService eventService) {
+    public OrderController(EventService eventService, OrderService orderService) {
         this.eventService = eventService;
+        this.orderService = orderService;
     }
-
 
     @RequestMapping("/order/event")
     public String getProductById(@RequestParam("id") Long eventId, Model model) {
@@ -33,7 +34,8 @@ public class OrderController {
     @RequestMapping(value = "/order/event", method = RequestMethod.POST)
     public String executeOrder(@RequestParam("id") Long id, @ModelAttribute ("newOrder") Order newOrder) {
         eventService.updateTickets(id, newOrder.getNumberOfTickets());
-        return "login";
+        orderService.sendEmail(newOrder.getDeliveryEmail());
+        return "index";
     }
 
 }

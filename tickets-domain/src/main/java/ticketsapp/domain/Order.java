@@ -6,6 +6,7 @@ public class Order {
     private Long eventId;
     private Long numberOfTickets;
     private Long amount;
+    private String deliveryEmail;
 
 
     public Order() {
@@ -27,12 +28,19 @@ public class Order {
         this.amount = amount;
     }
 
-
     public Long getEventId() {
         return eventId;
     }
 
     public void setEventId(Long eventId) {
         this.eventId = eventId;
+    }
+
+    public String getDeliveryEmail() {
+        return deliveryEmail;
+    }
+
+    public void setDeliveryEmail(String deliveryEmail) {
+        this.deliveryEmail = deliveryEmail;
     }
 }

@@ -22,6 +22,8 @@
                 <form:form modelAttribute="newOrder" class="form-horizontal">
                     How many tickets would you buy?
                     <form:input id="nrOftickets" path="numberOfTickets" type="number"/><br/>
+                    Enter delivery email:
+                    <form:input id="deliveryEmail" path="deliveryEmail" type="text"/><br/>
                     <br/>
                     <input class="btn btn-lg btn-success btn-block" type="submit" value="Go to payment">
 
@@ -32,5 +34,4 @@
         </div>
     </div>
 </section>
-
 </body>

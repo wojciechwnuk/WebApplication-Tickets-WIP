@@ -7,5 +7,6 @@ import ticketsapp.domain.Event;
  */
 public interface OrderService {
     Event getIdOfEvent(Long id);
+    void sendEmail(String recipientEmail);
 
 }
