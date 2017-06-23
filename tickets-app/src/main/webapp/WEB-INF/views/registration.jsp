@@ -23,7 +23,7 @@
                     Address: <br/>
                     <form:input id="adres" path="address" type="text"/><br/>
                     Email: <br/>
-                    <form:input id="email" path="email" type="text"/><br/>
+                    <form:input id="username" path="username" type="text"/><br/>
                     Password: <br/>
                     <form:input id="hasło" path="password" type="password"/><br/>
                     <br/>

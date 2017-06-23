@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-
        xmlns:security="http://www.springframework.org/schema/security"
-       xsi:schemaLocation="
-		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd
-		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <security:http auto-config="true">
-
-        <!--linijka poniżej pokazuje strone, na którą zeby wejść trzeba sie zalogowac jako admin-->
         <security:intercept-url pattern="/addEvent" access="ROLE_ADMIN"/>
-
-        <!--ta pokazuje strone logowania-->
         <security:form-login login-page="/account/login"
                              default-target-url="/"
-                             authentication-failure-url="/account/loginfailed"/>  <!--przekierowanie w przypadku nieudanego logowania-->
-
+                             authentication-failure-url="/account/loginfailed"/>
         <security:logout logout-success-url="/logout"/>
     </security:http>
 
-
-    <!-- dane admina-->
     <security:authentication-manager>
         <security:authentication-provider>
-            <security:user-service>
-                <security:user name="da" password="da" authorities="ROLE_ADMIN"/>
-            </security:user-service>
-        </security:authentication-provider>
+
+            <security:jdbc-user-service data-source-ref="dataSource"
+                                        users-by-username-query=
+                                                "SELECT username, password, enabled FROM accounts WHERE username=?"
+                                        authorities-by-username-query=
+                                                "SELECT username, 'ROLE_USER' FROM accounts WHERE username =?"/>
+                    </security:authentication-provider>
     </security:authentication-manager>
+
+    <mvc:annotation-driven/>
+    <context:component-scan base-package="ticketsapp"/>
+    <context:property-placeholder location="classpath:persistance.properties"/>
+    <jpa:repositories base-package="ticketsapp.repository"/>
+
 </beans>
+

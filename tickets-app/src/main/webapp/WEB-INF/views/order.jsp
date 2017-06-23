@@ -22,16 +22,21 @@
                 <form:form modelAttribute="newOrder" class="form-horizontal">
                     How many tickets would you buy?
                     <form:input id="nrOftickets" path="numberOfTickets" type="number"/><br/>
-                    Enter delivery email:
-                    <form:input id="deliveryEmail" path="deliveryEmail" type="text"/><br/>
                     <br/>
                     <input class="btn btn-lg btn-success btn-block" type="submit" value="Go to payment">
 
                 </form:form>
+
+                <a href="<spring:url value="/"/>" class="btn btndefault">
+                    <span class="glyphicon-hand-left glyphicon"></span> Back
+                </a>
             </div>
 
 
         </div>
     </div>
 </section>
+
 </body>
+
+

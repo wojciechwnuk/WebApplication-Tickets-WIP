@@ -132,11 +132,6 @@
                 <version>${hibernate-persistence-version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>javax.mail</groupId>
-                <artifactId>mail</artifactId>
-                <version>${javax-mail-version}</version>
-            </dependency>
 
             <dependency>
                 <groupId>commons-fileupload</groupId>
@@ -152,6 +147,11 @@
                 <scope>compile</scope>
             </dependency>
 
+            <dependency>
+                <groupId>javax.mail</groupId>
+                <artifactId>mail</artifactId>
+                <version>${javax-mail-version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

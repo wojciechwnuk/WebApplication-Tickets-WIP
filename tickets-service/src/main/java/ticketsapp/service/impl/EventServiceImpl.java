@@ -1,9 +1,9 @@
-package ticketsapp.account.impl;
+package ticketsapp.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ticketsapp.account.EventService;
+import ticketsapp.service.EventService;
 import ticketsapp.domain.Event;
 import ticketsapp.repository.EventRepository;
 
@@ -40,8 +40,7 @@ public class EventServiceImpl implements EventService {
     }
 
     public List<Event> findAllEvents() {
-        List<Event> listOfEvents = eventRepository.findAll();
-        return listOfEvents;
+        return eventRepository.findAll();
     }
 
     public Event getEventById(Long id) {

@@ -2,7 +2,7 @@ package ticketsapp.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import ticketsapp.account.AccountService;
+import ticketsapp.service.AccountService;
 import ticketsapp.domain.Account;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,13 +23,14 @@ public class AccountController {
     @RequestMapping(value = "/account/registration", method = RequestMethod.GET)
     public String registerNewUser(Model model) {
         Account account = new Account();
+
         model.addAttribute("newUser", account);
+
         return "registration";
     }
 
     @RequestMapping(value = "/account/registration", method = RequestMethod.POST)
     public String processAddNewAccountForm(@ModelAttribute("newUser") Account accountToBeAdded) {
-
         accountService.create(accountToBeAdded);
         return "redirect:/";
     }

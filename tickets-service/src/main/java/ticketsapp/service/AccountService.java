@@ -1,4 +1,4 @@
-package ticketsapp.account;
+package ticketsapp.service;
 
 import ticketsapp.domain.Account;
 
